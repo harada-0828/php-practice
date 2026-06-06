@@ -1,6 +1,6 @@
 <?php
 //課題１の表記テストです
-echo"課題1<br>";
+echo "課題1<br>";
 
 $original_price = 5000;
 $discount_rate = 0.20;
@@ -25,19 +25,34 @@ if ($number % 2 == 0) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>写真の表示テスト</title>
 </head>
+
 <body>
+    <h1>iPhoneで撮影した写真</h1>
     <p>※phpの中にhtmlを入れてみるテスト</p>
+
+    <!-- 💡 ここが画像を表示するタグです -->
+    <img src="images/my-photo.jpg" alt="iPhoneで撮影した写真" width="400">
+
+
+    <!-- 画像を表示するタグ（正しい相対パス） -->
+    <div>
+        <img src="../../images/my-photo.jpg" alt="iPhoneで撮影した写真" width="400">
+    </div>
 </body>
+
 </html>
 
 
+
+
 <?php
-echo "課題３";
+echo "課題３<br>";
 //課題3: 複数条件の判定
 //論理演算子（&&、||）を使って、以下の条件を判定するプログラムを作成してください。
 //年齢が18歳以上 かつ 会員である場合: 「割引が適用されます」
@@ -71,5 +86,3 @@ echo "ダメージ後: {$score}点<br>";
 $score *= 2;   // 2倍アイテム
 echo "最終スコア: {$score}点<br>";
 
-
-?>
