@@ -57,7 +57,7 @@ $users = [$user1, $user2, $user3];
 <!DOCTYPE html>
 
 <body>
-    <h1>ユーザー管理プログラム</h1>
+    <h1>ユーザ管理プログラム</h1>
 
     <h2>【自己紹介】</h2>
     <?php foreach ($users as $user) {
