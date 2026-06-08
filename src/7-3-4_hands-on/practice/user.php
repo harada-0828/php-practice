@@ -38,6 +38,7 @@ $user1 = new User("田中太郎", 25);
 $user2 = new User("佐藤花子", 17);
 $user3 = new User("鈴木一郎", 30);
 
+
 // 2. 配列にまとめてループ処理で一気に出力する
 $users = [$user1, $user2, $user3];
 
